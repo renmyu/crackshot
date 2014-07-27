@@ -1,0 +1,42 @@
+SMGu:
+    Item_Information:
+        Item_Name: "&eSMG搭載遠隔攻撃ユニット"
+        Item_Type: 404
+        Item_Lore: "&f種類:攻撃ユニット|&fレベル:&d7"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 2
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 200
+        Delay_Between_Shots_In_Burst: 1
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Bullets_Individually: false
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: 
