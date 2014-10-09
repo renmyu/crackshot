@@ -1,0 +1,38 @@
+gunsword:
+    Item_Information:
+        Item_Name: "&e銃剣(仮)"
+        Item_Type: 268
+        Item_Lore: "&e"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 20
+        Projectile_Damage: 1
+        Bullet_Spread: 3
+        Sounds_Shoot: SHOOT_ARROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 289
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Bullets_Individually: false
+        Reload_Duration: 50
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-46,HURT_FLESH-1-0-47,DOOR_CLOSE-1-2-48
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
